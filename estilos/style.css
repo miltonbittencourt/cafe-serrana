@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+/* Reset básico */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #3D2923;
+    background-color: #FFEAE5;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+  
+h1 {
+    font-size: 2.5rem;
+}
+  
+h2 {
+    font-size: 2rem;
+}
+  
+h3 {
+    font-size: 1.75rem;
+}
+  
+h4 {
+    font-size: 1.5rem;
+}
+  
+h5 {
+    font-size: 1.25rem;
+}
+  
+h6 {
+    font-size: 1rem;
+}
+  
+p {
+    margin-bottom: 1.5rem;
+}
+  
+a {
+    color: #865544;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+a:hover {
+    color: #BB7654;
+}
+  
+/* Estilização do cabeçalho */
+header {
+    background-color: #3D2923;
+}
+  
+.navbar-brand {
+    color: #E4B374;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    transition: color 0.3s;
+}
+  
+.navbar-brand:hover {
+    color: #BB7654;
+}
+  
+.nav-link {
+    color: #E4B374;
+    transition: color 0.3s;
+}
+  
+.nav-link:hover {
+    color: #BB7654;
+}
+  
+/* Estilos para o banner */
+#banner {
+      background-image: url('../imagens/pe-cafe-medio.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+}
+  
+.banner-content {
+      text-align: center;
+      max-width: 80%;
+      color: #fff;
+      z-index: 1;
+}
+  
+h1 {
+      font-size: 2.5rem;
+      background-color: #3d2923a4;
+      margin-bottom: 1rem;
+      border-radius: 20px;
+  }
+  
+.btn-comprar {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #BB7654;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 4px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s;
+}
+  
+.btn-comprar:hover {
+      background-color: #865544;
+      text-decoration: none;
+}
+
+/* Estilização da seção "Sobre" */
+.sobre-section {
+    padding: 4rem 0;
+}
+
+.sobre-section h2 {
+    margin-bottom: 2rem;
+}
+
+.sobre-section img {
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+/* Estilização da seção "Benefícios" */
+.beneficios-section {
+    padding: 4rem 0;
+    background-color: #F9F4F1;
+}
+
+.beneficios-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.beneficio {
+    text-align: center;
+    padding: 1rem;
+}
+
+.beneficio i {
+    font-size: 3rem;
+    color: #BB7654;
+    margin-bottom: 1rem;
+}
+
+.beneficio h3 {
+    margin-bottom: 1rem;
+}
+
+.beneficio p {
+    font-size: 1rem;
+}
+
+/* Estilização da seção "Como preparar" */
+.como-preparar-section {
+    padding: 4rem 0;
+}
+
+.como-preparar-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.como-preparar-section h3 {
+    margin-bottom: 1rem;
+}
+
+.como-preparar-section p {
+    font-size: 1
+}
+
+/* Estilização das imagens na seção "Como preparar" */
+.como-preparar-section .img-fluid {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+  
+/* Estilização do rodapé */
+footer {
+    background-color: #3D2923;
+    padding: 1.5rem 0;
+}
+  
