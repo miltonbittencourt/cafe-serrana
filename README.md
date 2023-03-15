@@ -2,6 +2,10 @@
 
 Este projeto é uma landing page criada para promover um produto fictício chamado "Café em Grãos Serrana". A página foi desenvolvida utilizando HTML, CSS, JavaScript, além de bibliotecas como Bootstrap e jQuery.
 
+## Link da página
+
+https://miltonbittencourt.github.io/cafe-serrana/
+
 ## Recursos
 
 - Design responsivo, otimizado para dispositivos móveis, tablets e desktops
