@@ -247,7 +247,48 @@ h1 {
     display: block;
     margin-top: 1rem;
     background-color: #E4B374;
+    color: #3D2923;
 }
+
+/* Seção Contato */
+#contato {
+    background-color: #FFEAE5;
+    padding: 60px 0;
+}
+
+#contato h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contato-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.endereco, .telefone, .redes-sociais {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.endereco p, .telefone p, .redes-sociais p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.redes-sociais a {
+    color: #3D2923;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
 
 /* Estilização do botão voltar ao topo */
 #back-to-top {
@@ -271,36 +312,42 @@ h1 {
 }
 
   
-/* Estilização do rodapé (Footer) */
-.site-footer {
-    padding: 4rem 0;
+/* Footer */
+footer {
     background-color: #3D2923;
     color: #E4B374;
+    padding: 20px 0;
 }
 
-.site-footer h4 {
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem;
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.site-footer p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #FFEAE5;
+.footer-left, .footer-right {
+    flex: 1;
+    padding: 0 15px;
 }
 
-.site-footer a {
+.footer-left h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-left p, .footer-right p {
+    font-size: 14px;
+}
+
+.footer-right a {
     color: #E4B374;
     text-decoration: none;
 }
 
-.site-footer a:hover {
-    color: #BB7654;
+.footer-right a:hover {
     text-decoration: underline;
-}
-
-.site-footer .text-center {
-    margin-top: 3rem;
 }
 
   
