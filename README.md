@@ -14,7 +14,7 @@ Este projeto é uma landing page criada para promover um produto fictício chama
 
 1. Clone o repositório em seu computador local:
 
-https://github.com/miltonbittencourt/cafe-em-graos-serrana.git
+https://github.com/miltonbittencourt/cafe-serrana.git
 
 2. Abra o arquivo `index.html` em seu navegador favorito para visualizar a página.
 
